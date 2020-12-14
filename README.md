@@ -9,8 +9,13 @@ This project tries to identify school zone neighborhoods in the Greater London a
 For simplicity, the initial project focuses on only the Greater London area.  But this is a scalable project that can expand to other geographies and also take consideration of other metrics such as crime rate, transportation, average income, etc into consideration.
 
 ### Data
-To perform the analysis, we collected data from 3 major sources:
+To perform the analysis, we collected data from 4 major sources:
 - UK's postcode and geocode data (longitude & latitude) from FreeMapTools ([Link](https://www.freemaptools.com/download-uk-postcode-lat-lng.htm))
 - UK home price data from Gov.uk ([link](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads))
 - Greater London area's postal districts and neighbourhoods from Wikipedia
 - Venue data from Foursquare API
+
+### Premilinary Conclusions
+1. For migrant families with kids that require school placement, Cluster 0 areas generally would have less choices  
+2. For families with young kids whom go to nursery or elementary schools, Cluster 1 areas would have more choices 
+3. One may consider Cluster 1 areas in the outter rings of Greater London with relatively lower home prices
